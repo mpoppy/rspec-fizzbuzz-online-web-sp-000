@@ -12,5 +12,3 @@ def fizzbuzz(number)
     "nil"
   end
 end
-
-fizzbuzz(5)
