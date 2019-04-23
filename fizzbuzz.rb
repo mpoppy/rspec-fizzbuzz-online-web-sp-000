@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  if number % 3 == true
+  if number % 3
     "Fizz"
-  elsif number % 5 == true
+  elsif number % 5
     "Buzz"
-  elsif number % 3 && 5 == true
+  elsif number % 3 && 5
     "FizzBuzz"
   else
     "nil"
